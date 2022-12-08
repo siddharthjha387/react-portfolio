@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.933d83ce.css",
+    "main.js": "/react-gh-pages/static/js/main.33e04c38.js",
+    "static/media/award.jpg": "/react-gh-pages/static/media/award.f1d69afc5d5d766b3fd9.jpg",
+    "static/media/Me.jpg": "/react-gh-pages/static/media/Me.f83c691d9a941f7a4b7e.jpg",
+    "static/media/about.png": "/react-gh-pages/static/media/about.85fbcefd9b40c5fe47c3.png",
+    "static/media/Linkedin.png": "/react-gh-pages/static/media/Linkedin.3d931fbf4e93b728159b.png",
+    "static/media/email.png": "/react-gh-pages/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/Github.png": "/react-gh-pages/static/media/Github.5994b25b696bbc93b5d8.png",
+    "static/media/sun.png": "/react-gh-pages/static/media/sun.f794832ad72b90c61eb7.png",
+    "static/media/moon.png": "/react-gh-pages/static/media/moon.3bea3d398a25611d421b.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.933d83ce.css.map": "/react-gh-pages/static/css/main.933d83ce.css.map",
+    "main.33e04c38.js.map": "/react-gh-pages/static/js/main.33e04c38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.933d83ce.css",
+    "static/js/main.33e04c38.js"
+  ]
+}
