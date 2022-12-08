@@ -1,0 +1,67 @@
+.leetcode-container{
+    margin-top: 20px;
+}
+.leetcode-container h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 500px;
+    
+}
+
+
+.left,.right {
+    width: 50%;
+}
+
+.right h2{
+    font-size: 2rem;
+}
+
+.right div{
+    padding: 2px;
+    font-size: 1.3rem;
+}
+
+.easy{
+    font-size: 18px;
+    color:#18A558;
+}
+
+.medium{
+    font-size: 18px;
+    color:#FFC300;
+}
+
+.hard{
+    font-size: 18px;
+    color:#f44441;
+}
+
+@media screen and (max-width: 767px) {
+    .flex {
+        flex-direction: column;
+        height: 1000px;
+        gap: 0;
+    }
+    .left,.right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .leetcode-container h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .right h2{
+        font-size: 20px;
+    }
+    
+  }
