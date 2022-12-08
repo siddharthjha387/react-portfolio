@@ -5,7 +5,7 @@ import App from './App';
 import { ThemeProvider } from './context';
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
-    uri: "https://leetcode.com/graphql",
+    uri: "/graphql",
     cache: new InMemoryCache()
   });
 const root = ReactDOM.createRoot(document.getElementById('root'));
