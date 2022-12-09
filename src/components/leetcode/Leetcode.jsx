@@ -11,14 +11,14 @@ const PROFILE_QUERY = gql`
 { matchedUser(username: "siddharth153") {
   username
   submitStats: submitStatsGlobal {
-  acSubmissionNum {
-  difficulty
-  count
-  submissions
+      acSubmissionNum {
+        difficulty
+        count
+        submissions
+      }
+    }
   }
-  }
-  }
-  }
+}
 `;
 
 

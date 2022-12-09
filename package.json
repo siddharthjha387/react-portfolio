@@ -2,9 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  
-  "proxy":"https://leetcode.com",
- 
+  "proxy": "https://leetcode.com",
   "dependencies": {
     "@apollo/client": "^3.7.2",
     "@emailjs/browser": "^3.6.2",
@@ -19,7 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,8 +39,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
