@@ -31,8 +31,8 @@ function Leetcode() {
 
   if (loading) return "Loading...";
   if (error) return <pre>{error.message}</pre>
-  // else
-  //   console.log(data.matchedUser.submitStats.acSubmissionNum[1]);
+  else
+    console.log(data.matchedUser.submitStats.acSubmissionNum[1]);
 
 
 
