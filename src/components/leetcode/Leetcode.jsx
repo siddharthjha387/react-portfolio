@@ -23,13 +23,13 @@ const PROFILE_QUERY = gql`
 
 
 
-
 function Leetcode() {
 
 
   const { data, loading, error } = useQuery(PROFILE_QUERY);
 
   if (loading) return "Loading...";
+  if (error) return;
   // if (error) return <pre>{error.message}</pre>
   // else
   //   console.log(data.matchedUser.submitStats.acSubmissionNum[1]);
